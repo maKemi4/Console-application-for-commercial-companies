@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{83ff88ec-15c5-4272-a6ed-4f94aadced50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{b54ff4ba-542d-4b39-8e0d-9ed7087140a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\bank">
+      <UniqueIdentifier>{af0822dd-6a0b-4bda-a0f5-bc9fcb1053c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\commercial org">
+      <UniqueIdentifier>{694456b9-852c-40ab-be64-95f060a5ea14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\bank">
+      <UniqueIdentifier>{55219bf5-7de4-4497-8048-ba7546259bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\commercial org">
+      <UniqueIdentifier>{649ebcdf-aa65-44ba-93c0-bb05adc2367b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\insurance company">
+      <UniqueIdentifier>{e402456d-9105-4b14-8ae2-3565113b49e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\insurance company">
+      <UniqueIdentifier>{a83ab621-e582-4c91-8815-bd109fda6986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\deque">
+      <UniqueIdentifier>{864ff096-2bae-4c63-a556-8c4f76cfaf2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\deque">
+      <UniqueIdentifier>{ee2c05d3-f157-4f84-8f74-c805e456f93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\menu">
+      <UniqueIdentifier>{6356578f-6999-4c60-b35c-ab27b2fe2c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\menu">
+      <UniqueIdentifier>{6f229647-f2e5-4854-8383-38ee59d33957}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="bank.cpp">
+      <Filter>Source Files\Model\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="capital.cpp">
+      <Filter>Source Files\Model\commercial org</Filter>
+    </ClCompile>
+    <ClCompile Include="commercialOrg.cpp">
+      <Filter>Source Files\Model\commercial org</Filter>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <Filter>Source Files\Model\commercial org</Filter>
+    </ClCompile>
+    <ClCompile Include="insurCompany.cpp">
+      <Filter>Source Files\Model\insurance company</Filter>
+    </ClCompile>
+    <ClCompile Include="abligation.cpp">
+      <Filter>Source Files\Model\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="deposit.cpp">
+      <Filter>Source Files\Model\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="openedAbligation.cpp">
+      <Filter>Source Files\Model\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="openedDeposit.cpp">
+      <Filter>Source Files\Model\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files\Model\commercial org</Filter>
+    </ClCompile>
+    <ClCompile Include="case.cpp">
+      <Filter>Source Files\Model\insurance company</Filter>
+    </ClCompile>
+    <ClCompile Include="caseType.cpp">
+      <Filter>Source Files\Model\insurance company</Filter>
+    </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>Source Files\Model\deque</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\Model\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="datasourceFiller.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deposit.h">
+      <Filter>Header Files\Model\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="openedDeposit.h">
+      <Filter>Header Files\Model\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="bank.h">
+      <Filter>Header Files\Model\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="openedAbligation.h">
+      <Filter>Header Files\Model\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="abligation.h">
+      <Filter>Header Files\Model\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="commercialOrg.h">
+      <Filter>Header Files\Model\commercial org</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.h">
+      <Filter>Header Files\Model\commercial org</Filter>
+    </ClInclude>
+    <ClInclude Include="capital.h">
+      <Filter>Header Files\Model\commercial org</Filter>
+    </ClInclude>
+    <ClInclude Include="insurCompany.h">
+      <Filter>Header Files\Model\insurance company</Filter>
+    </ClInclude>
+    <ClInclude Include="case.h">
+      <Filter>Header Files\Model\insurance company</Filter>
+    </ClInclude>
+    <ClInclude Include="caseType.h">
+      <Filter>Header Files\Model\insurance company</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\Model\commercial org</Filter>
+    </ClInclude>
+    <ClInclude Include="deque.h">
+      <Filter>Header Files\Model\deque</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\Model\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="companyTypes.h">
+      <Filter>Header Files\Model\commercial org</Filter>
+    </ClInclude>
+    <ClInclude Include="datasourceFiller.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

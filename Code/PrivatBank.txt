@@ -1,0 +1,17 @@
+Companies:
+The name of the bank is PrivatBank. The location is Ukraine
+Available deposit types:
+1. Deposit to 1 month with 3.000000%
+2. Deposit to 3 month with 5.500000%
+3. Deposit to 12 month with 10.000000%
+Available abligations types:
+1. Abligation to 1 month with 12.000000 % 
+2. Abligation to 12 month with 20.000000 % 
+Employees:
+1. Maria Chuvaw. Position: Manager
+2. Mariana Omilio. Position: Client
+Clients:
+1. Client's name is Omeloi, the surname is Kuri
+2. Client's name is Keyi, the surname is Pepo
+3. Client's name is Artem, the surname is BRUH
+4. Client's name is Brutulio, the surname is Cloun

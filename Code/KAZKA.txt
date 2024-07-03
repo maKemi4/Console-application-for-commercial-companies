@@ -1,0 +1,11 @@
+Companies:
+The name of the insurance company is KAZKA. The location is Ukraine
+Available cases types:
+1. Insurance for car with insurance amount of 20000.000000%
+2. Insurance for life with insurance amount of 100000.000000%
+Employees:
+1. Artem Ivanovich. Position: Manager
+2. Danya Sliw. Position: Client
+Clients:
+1. Client's name is Jake, the surname is Bruist
+2. Client's name is John, the surname is Leo
